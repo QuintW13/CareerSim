@@ -1,0 +1,11 @@
+footer{
+    display: flex;
+    flex-direction: row;
+    height: 10vh;
+    padding: 15px;
+    position: relative;
+    text-align: center;
+}
+.media-link{
+    height: 10vh;
+}
