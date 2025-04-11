@@ -3,9 +3,71 @@ footer{
     flex-direction: row;
     height: 10vh;
     padding: 15px;
-    position: relative;
     text-align: center;
+    background-color: gray;
+    justify-content: center;
 }
-.media-link{
-    height: 10vh;
+header{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    text-align: center;
+    font-size: x-large;
+    color: white;
+    
+    background-color: rgb(66, 98, 113);
+   
+}
+ nav{
+    color: white;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: x-large;
+
+
+}
+main{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    flex-grow: 1;
+    font-size: x-large;
+    
+}
+svg{
+    display: flex;
+    flex-direction: column;
+
+}
+body{
+    display: flex;
+    flex-direction: column;
+}
+.profile-pic{
+    display: flex;
+    flex-direction: column;
+    width: 10vw;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    left: 44.5vw;
+    margin: 10px;
+}
+.Pages{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    padding: 10px;
+    color: white;
+}
+.active{
+    color: white;
+}
+a{
+    color: white;
 }
