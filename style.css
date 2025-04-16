@@ -3,11 +3,11 @@ footer{
     justify-content: center;
     flex-direction: column;
     align-items: center;
-    padding: 15px;
+    padding: 1vw;
     text-align: center;
     font-size: x-large;
     color: white;
-    width: 100vw;
+    width: 97vw;
     background-color: rgba(60, 76, 93, 0.915);
 }
 header{
@@ -15,11 +15,11 @@ header{
     justify-content: center;
     flex-direction: column;
     align-items: center;
-    padding: 15px;
+    padding: 1vw;
     text-align: center;
     font-size: x-large;
     color: white;
-    width: 100vw;
+    width: 97vw;
     
     background-color: rgb(66, 99, 66);
    
@@ -50,11 +50,13 @@ body{
     justify-content: center;
     flex-direction: column;
     align-items: center;
-    padding: 15px;
+    
     width: 11vw;
     position: relative;
-    margin-left: 45vw;
-    
+    margin: auto;
+    margin-top: 20px;
+    border: solid 10px;
+    border-color: white;
 }
 .Pages{
     display: flex;
@@ -78,18 +80,17 @@ a{
 }
 .about-image{
     display: flex;
-    width: 10vw;
+    width: 15vw;
     justify-content: left;
     align-items: center;
     
-    margin: 10px;
+    margin: 15px;
 }
 h3{
     border-top:solid 2px;
     border-color: white;
     text-decoration: underline;
-    margin-left: 5vw;
-    margin-bottom: 1vw;
+    margin: auto;
     padding: 15px;
     display: flex;
     flex-direction: column;
@@ -100,19 +101,32 @@ h3{
 }
 .about-section{
     display: flex;
-    flex-direction: row;
+    flex-direction:row;
     align-items: center;
+    margin: auto;
 }
 .about-image2{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 10vw;
     position: relative;
-    left: 45.25vw;
-    margin: 10px;
+    margin: auto;
+    width: 15vw;
 }
 .Socials{
    
+}
+.page-2{
+    border-top:solid 2px;
+    border-color: white;
+    text-decoration: underline;
+    margin: auto;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: xx-large;
+    width: 75vw;
 }
