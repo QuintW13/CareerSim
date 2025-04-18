@@ -7,8 +7,10 @@ footer{
     text-align: center;
     font-size: x-large;
     color: white;
-    width: 97vw;
+    width: 98vw;
     background-color: rgba(60, 76, 93, 0.915);
+    margin: auto;
+    
 }
 header{
     display: flex;
@@ -19,8 +21,8 @@ header{
     text-align: center;
     font-size: x-large;
     color: white;
-    width: 97vw;
-    
+    width: 98vw;
+    margin: auto;
     background-color: rgb(66, 99, 66);
    
 }
@@ -35,14 +37,17 @@ header{
 main{
     display: flex;
     flex-direction: column;
+    flex-grow: 1;
     text-align: center;
     justify-content: center;
     font-size: x-large;
     color: white;
+    margin: auto;
 }
 body{
     display: flex;
     flex-direction: column;
+    height: 100vh;
     background-color: rgba(105, 108, 108, 0.717);
 }
 .profile-pic{
@@ -80,23 +85,11 @@ a{
 }
 .about-image{
     display: flex;
-    width: 15vw;
+    width: 33%;
     justify-content: left;
     align-items: center;
     
-    margin: 15px;
-}
-h3{
-    border-top:solid 2px;
-    border-color: white;
-    text-decoration: underline;
-    margin: auto;
-    padding: 15px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    font-size: xx-large;
+    margin:15px;
 
 }
 .about-section{
@@ -104,6 +97,10 @@ h3{
     flex-direction:row;
     align-items: center;
     margin: auto;
+    margin-left: 4vw;
+    margin-right: 4vw;
+    width: 85vw;
+    
 }
 .about-image2{
     display: flex;
@@ -112,9 +109,8 @@ h3{
     align-items: center;
     position: relative;
     margin: auto;
-    width: 15vw;
-}
-.Socials{
+    margin-left: 4vw;
+    margin-right: 4vw;
    
 }
 .page-2{
@@ -129,4 +125,78 @@ h3{
     align-items: center;
     font-size: xx-large;
     width: 75vw;
+}
+.about-section2{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+   
+    position: relative;
+    margin: auto;
+    width: 85vw;
+    margin-left: 4vw;
+    margin-bottom: 2vh;
+}
+.movies2{
+    width: 33%;
+}
+.about-header3{
+    font-style: italic;
+    text-decoration: underline;
+}
+.page3{
+    border-top:solid 2px;
+    border-color: white;
+    
+    margin: auto;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: xx-large;
+    width: 75vw;
+}
+.port-section{
+    display: flex;
+    flex-direction:row;
+    align-items: center;
+    margin: auto;
+    margin-left: 4vw;
+    margin-right: 4vw;
+    width: 85vw;
+}
+.port-image{
+    display: flex;
+    width: 33%;
+    justify-content: left;
+    align-items: center;
+    margin:15px;
+
+}
+.port-graduate{
+    align-items: left;
+    display: flex;
+    flex-direction: column;
+    
+}
+.port-list{
+    width: fit-content;
+}
+.port-section2{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: auto;
+    margin-left: 4vw;
+    margin-right: 4vw;
+    width: 85vw;
+    
+}
+.port-image2{
+    display: flex;
+    width: 33%;
+    justify-content: right;
+    align-items: center;
+    margin:15px;    
 }
